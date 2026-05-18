@@ -26,4 +26,4 @@ jobs:
         run: java Main
 
       - name: Run Test
-        run: Java CalculatorTest
+        run: java CalculatorTest
