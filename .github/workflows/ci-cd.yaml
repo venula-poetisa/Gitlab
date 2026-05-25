@@ -19,5 +19,5 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
         
-      -name: Run Custom Action
+      - name: Run Custom Action
       uses: ./.github/actions/java-build
