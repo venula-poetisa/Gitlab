@@ -1,15 +1,14 @@
-name: "Java Build Action"
-description: "Compile and run Java program"
+name: 'Java Build Action'
+description: 'Compile Java Program'
+
 runs:
   using: "composite"
 
-steps:
-  -name: Compile Java
-  run: javac Main.java
-  shell: bash
+  steps:
+    - name: Compile Java File
+      run: javac Main.java
+      shell: bash
 
-  -naem: Run Java
-  run: java Main
-  shell: bash
-
-  
+    - name: Run Java Program
+      run: java Main
+      shell: bash
